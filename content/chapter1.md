@@ -6,30 +6,30 @@
 ## ② • 第一个问题：什么是图形学
 **在百度百科中：**
 
-计算机图形学(Computer Graphics，简称CG)是一种使用数学算法将`二维`或`三维`图形转化为计算机显示器的`栅格`形式的科学。简单地说，计算机图形学的主要研究内容就是研究如何在计算机中表示图形、以及利用计算机进行图形的计算、处理和显示的相关`原理`与`算法`。
+计算机图形学 (Computer Graphics，简称CG) 是一种使用数学算法将`二维`或`三维`图形转化为计算机显示器的`栅格`形式的科学。简单地说，计算机图形学的主要研究内容就是研究如何在计算机中表示图形、以及利用计算机进行图形的计算、处理和显示的相关`原理`与`算法`。
 
 **在新编计算机图形学中：**
 
-计算机图形学(Computer Graphics,CG)是研究怎样在数字计算机内表示、生成、处理和输出显示图形的一门学科。简单地讲，计算机图形学就是应用计算机技术合成具有真实感的数字图像、动画和视频的一门学科。
+计算机图形学 (Computer Graphics, CG) 是研究怎样在数字计算机内表示、生成、处理和输出显示图形的一门学科。简单地讲，计算机图形学就是应用计算机技术合成具有真实感的数字图像、动画和视频的一门学科。
 
 ## ③ • 图形学发展史是什么样的？
 时间 | 事件 | 人物 | 意义
 ----|-----|------|----
-1950 | 第一台图形显示器作为美国麻省理工学员(MIT)旋风计算机的附件诞生 |-| 显示器用一个类似于示波器的阴极射线管(CRT)来显示一些简单的图形。
-1958 | 美国Calcomp公司由联机的数字记录仪发展成滚筒式绘图仪，GerBer公司把数控机发展成为平板式绘图仪 | - | 整个50年代，只有电电子管计算机，用机器语言编程。计算机图形学处于准备和酝酿时期，并称之为：”被动式“图形学
-1962 | MIT林肯实验室发表了一篇”Sketchpad：一个人机交互通信的图形系统“，首次使用计算机图形学Computer Graphics术语 | lvan E.Sutherland | 证明了交互计算机图形学是一个可行的、有用的研究领域，从而确定了计算机图形学作为一个崭新的科学分支的独立地位。其他概念术语：交互技术、分层存储符号的数据结构
-60年代早期 | 发过雷诺汽车公司的工程师发展了一套被后人称为Bezier曲线、曲面的理论 | Pierre Bezier | 成功用于几何外形设计，并开发了用于汽车外形设计的UNISURF系统。Coons方法和Bezier方法是CAGD最早的开创性工作。
-60年代 | 萌芽的光栅图形学算法 |-| 区域填充、裁剪、消隐等基本图形概念、及其相应算法纷纷诞生，图形学进入一个第一个兴盛的时期，并开始出现实用的CAD图形系统
-1974 | 美国国家标准化居（ANSI）在 ACM SIGGRAPH 的一个与”与机器无关的图形技术“的工作会议上，提出了制定有关标准的基本规则。|-| 此后ACM专门成立了一个图形标准化委员会，开始制定有关标准。
-1977、1979 | 图形标准化委员会先后制定和修改了”核心图形系统“（Core Graphics System）。 |- | ISO随后又发布了计算机图形接口CGI(Computer Graphics Interface)、计算机图形元文件标准CGM（Computer Graphics Metafile）、计算机图形核心系统GKS（Graphics Kernel system）、面向程序员的层次交互图形标准PHIGS（Programmer's Hierarchical Interactive Graphics Standard）等。这些标准的制定，为计算机图形学的推广、应用、资源信息共享，起到了重要作用。
+1950 | 第一台图形显示器作为美国麻省理工学员 (MIT) 旋风计算机的附件诞生 |-| 显示器用一个类似于示波器的阴极射线管 (CRT) 来显示一些简单的图形。
+1958 | 美国 Calcomp 公司由联机的数字记录仪发展成滚筒式绘图仪，GerBer 公司把数控机发展成为平板式绘图仪 | - | 整个50年代，只有电电子管计算机，用机器语言编程。计算机图形学处于准备和酝酿时期，并称之为：”被动式“图形学
+1962 | MIT林肯实验室发表了一篇”Sketchpad：一个人机交互通信的图形系统“，首次使用计算机图形学 Computer Graphics 术语 | lvan E.Sutherland | 证明了交互计算机图形学是一个可行的、有用的研究领域，从而确定了计算机图形学作为一个崭新的科学分支的独立地位。其他概念术语：交互技术、分层存储符号的数据结构
+60年代早期 | 发过雷诺汽车公司的工程师发展了一套被后人称为 Bezier 曲线、曲面的理论 | Pierre Bezier | 成功用于几何外形设计，并开发了用于汽车外形设计的UNISURF系统。Coons 方法和 Bezier 方法是 CAGD 最早的开创性工作。
+60年代 | 萌芽的光栅图形学算法 |-| 区域填充、裁剪、消隐等基本图形概念、及其相应算法纷纷诞生，图形学进入一个第一个兴盛的时期，并开始出现实用的 CAD 图形系统
+1974 | 美国国家标准化居（ANSI）在 ACM SIGGRAPH 的一个与”与机器无关的图形技术“的工作会议上，提出了制定有关标准的基本规则。|-| 此后 ACM 专门成立了一个图形标准化委员会，开始制定有关标准。
+1977、1979 | 图形标准化委员会先后制定和修改了”核心图形系统“（Core Graphics System）。 |- | ISO随后又发布了计算机图形接口 CGI(Computer Graphics Interface)、计算机图形元文件标准 CGM（Computer Graphics Metafile）、计算机图形核心系统 GKS（Graphics Kernel system）、面向程序员的层次交互图形标准 PHIGS（Programmer's Hierarchical Interactive Graphics Standard）等。这些标准的制定，为计算机图形学的推广、应用、资源信息共享，起到了重要作用。
 70年代 | 计算机图形学另外两个重要的进展是真实感图形学和实体造型技术的产生 |-|-
-1983 | lvan E.Sutherland获取第一届计算机图形学最高奖项Coons奖 | - | -
-1985 | Pierre Bezier或缺的第二届计算机图形学最高奖项Coons奖 | - | -
+1983 | lvan E.Sutherland 获取第一届计算机图形学最高奖项Coons奖 | - | -
+1985 | Pierre Bezier 或缺的第二届计算机图形学最高奖项Coons奖 | - | -
 1970 | 提出了第一个反光射模型 | Bouknight |-
 1971 | 提出”漫反射模型+插值“的思想，被称为Gourand明暗处理 |Gourand|-
 1975 | 提出了著名的简单光照模型-Phone模型 | Phong |以上算是真实感图形学最早的开创性工作
-1980 | 提出了一个光透视模型-Whitted模型 | Whitted | 第一次给出光线跟踪算法的范例，实现Whitted模型
-1984 | 美国Cornell大学和日本广岛大学的学者分别将热辐射工程中的辐射度方法引入到计算机图形学中，用辐射度方法成功地模拟了理想漫反射表面间的多重漫反射效果；|-| 光线追踪算法和辐射度算法的提出，标志着真实感图形的显示算法已逐渐成熟
+1980 | 提出了一个光透视模型-Whitted模型 | Whitted | 第一次给出光线跟踪算法的范例，实现 Whitted 模型
+1984 | 美国 Cornell 大学和日本广岛大学的学者分别将热辐射工程中的辐射度方法引入到计算机图形学中，用辐射度方法成功地模拟了理想漫反射表面间的多重漫反射效果；|-| 光线追踪算法和辐射度算法的提出，标志着真实感图形的显示算法已逐渐成熟
 80年代中期 | 超大规模继承电路的发展，为图形学的飞速发展奠定了物质基础。计算机的运算能力的提高，图形处理速度的加快，使得图形学的各个研究方向得到充分发展，图形学已经广泛应用于动画、科学计算可视化、CAD\CAM、影视娱乐等各个领域
 
 上面的时间表比较臃肿，我也没有过多的去验证。不过大体上就是图形学是基于图像显示技术为基点，逐步完善发展起来的。历史总是惊人的相似，当初就已经提出或者有过实验性结果的东西，现在依旧很多人前仆后继去完善发展。看一个历史，看到的现在和未来。
@@ -61,34 +61,45 @@
 ## ⑤ • 更多了解图形学的地方
 
 ### 互联网大会
-ACM SIGGRAPH会议是计算机图形学最权威的国际会议
+ACM SIGGRAPH 会议是计算机图形学最权威的国际会议
 
 ### 国外学习网站
 [Scratchapixel2.0](http://www.scratchapixel.com/)
+
 [MITOPENCOURSEWARE](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-837-computer-graphics-fall-2012/lecture-notes/)
+
 [TAPESTRY](http://courses.washington.edu/arch481/1.Tapestry%20Reader/0.About.html)
+
 [3D C/C++ tutorials](http://www.3dcpptutorials.sk/)
+
 [Packpub](https://www.packtpub.com/)
 
 ### 国内信息网站
 [中国第一计算机图形学社区](http://www.opengpu.org/)
+
 [中国图像图形学学会](http://www.csig.org.cn/)
+
 [孔令德教授](http://www.klingde.com/)
 
 ### webGL相关
 [webGLAPI](https://developer.mozilla.org/zh-CN/docs/Web/API/WebGL_API)
+
 [WebGL中文网](http://www.hewebgl.com/)
 
 
 ### openGL相关
 [OGLdev](http://ogldev.atspace.co.uk/)
+
 [learnopengl](https://learnopengl.com/)
+
 [OpenGL](https://learnopengl-cn.readthedocs.io/zh/latest/)
+
 [博客](https://www.jianshu.com/p/0f740901da59)
 
 
 ### 游戏相关
 [http://www.zwqxin.com/](http://www.zwqxin.com/)
+
 [网络游戏研发网](http://www.ogdev.net/index.htm)
 
 ### 其他

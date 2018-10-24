@@ -2,7 +2,9 @@
 
 ## 《图形学》教程目录来袭！🐮 🐮 🐮 🐮 🐮 🐮 
 
-* [ThreeJS的那些API](content/chapter3.md)
+<!-- * [图形学之光栅化算法](content/chapter6.md) -->
+<!-- * [全景项目详解](content/chapter5.md) -->
+* [ThreeJS的那些API](content/chapter4.md)
 * [图形学之WebGL的工作原理](content/chapter3.md)
 * [图形学之从第一个3Ddemo说起](content/chapter2.md)
 * [找一个契机学习一下新的领域知识](content/chapter1.md)
